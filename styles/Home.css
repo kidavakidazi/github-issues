@@ -1,0 +1,114 @@
+.main {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 24px;
+    color: aliceblue;
+    background: #0d1117;
+    height: 100vh;
+}
+
+.issue__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.issue__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: aliceblue;
+}
+
+.issue__filter {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #d1d5da;
+    font-size: 14px;
+    color: #24292e;
+    background-color: #fff;
+    appearance: none;
+}
+
+.issue__label {
+    font-weight: 600;
+}
+
+.issue__select-label {
+    color: aliceblue;
+}
+
+.issue__select {
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-bottom: 8px;
+}
+
+.issue__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+}
+
+.issue__list-item {
+    padding: 8px 24px;
+    border: 1px solid #30363d;
+    border-bottom-color: transparent;
+}
+
+.issue__list-item:first-of-type {
+    border-top-color: transparent;
+}
+
+.issue__list-item:hover {
+    background: #161b22;
+}
+
+.issue__list-item-info {
+    font-size: 12px;
+    color: #8b949e;
+}
+
+.issue__list-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #c9d1d9;
+    text-decoration: none;
+}
+
+.issue__list-link:hover {
+    color: #0366d6;
+}
+
+.issue__load-more {
+    margin-top: 16px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 3px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.issue__load-more:hover {
+    background-color: #269f42;
+    border-color: #269f42;
+}
